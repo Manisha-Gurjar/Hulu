@@ -360,6 +360,15 @@ font-weight: 600;
     font-family: sans-serif;
     text-transform: uppercase;
 }
+.free_trial_1 button{
+    color:black;
+    background-color: white;
+    padding: 8px 80px 8px 80px ;
+    font-weight: 700;
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
 .free_trial_1{
     display: block;
     width: 30%;
@@ -382,93 +391,121 @@ font-weight: 600;
     font-weight: 700;
     letter-spacing: 1.5px;
 }
+.plans{
+    border-bottom: 1px solid rgba(200, 200, 2000, 0.4);
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    background: #000;
+    padding-bottom: 20px;
+    position: sticky;
+    flex-wrap: wrap;
+}
+.Monthly{
+    display: flex;
+    border-bottom: 1px solid rgba(200, 200, 2000, 0.4);
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.Monthly .price{
+    width: 45%;
+ 
+    text-align: start;
+    display: flex;
+}
+.Monthly p{
+    font-size: 14px;
+}
+.Monthly .price-1{
+    width: 55%;
+    display: flex;
+}
+.Monthly .check{
+    width: 50%;
+    padding: 18px;
+    display: flex;
+
+}
+.Monthly .priceless-1{
+    width: 35%;
 
 
-.section{
-   /* display: block; */
-   width: 100%;
+}
+.Monthly .shows{
+    width: 45%;
+    margin-right: 830px;
+    display: block;
+    padding: 18px 0;
+}
+.Monthly p{
+    font-size: 14px;
+    
+}
+.Monthly p:last-child{
+    margin-right: 150px;
+}
+.Monthly h1{
+    margin-top: 60px;
+    font-size: 45px;
+}
    
-   background-color: black;
-   padding-top:20px;
-   text-align: center;
-}
- table,td,tr{
-    border-bottom: 1px solid gray;
-    padding: 20px;
-    text-align: initial;
-    color: white;
-    font-weight: 600;
-    margin-left: 16em;
-    font-size: 15px;
-flex-direction:row ;
-  
-  }
-table,th{
-    font-weight: 100;
-    padding: 10px;
-}
-tr.last_section td {
-    font-size: 10px;
-    padding-top: 8px;
-    font-weight: 100;
-}
-.footer{
-    background-color: #E8EAED;
-   width: 100%;
-
-}
-.footer_{
-    padding: 2em;
+.Brows{
     display: flex;
     justify-content: space-between;
-}
-ul.footer_list,ul.footer_list1,ul.footer_list2,ul.footer_list3,ul.footer_list4,ul.footer_list5
-{
-    list-style: none;
-}
-ul.footer_list h1, ul.footer_list4 h1 ,ul.footer_list5 h1{
-    font-size: 15px;
-    font-weight: 600;
-    color: black;
-    text-transform: uppercase;
-}
-ul.footer_list li ,ul.footer_list1 li,ul.footer_list2 li,ul.footer_list3 li,ul.footer_list4 li,ul.footer_list5 li{
+    
+    flex-wrap: wrap;
+    width: 100%;
+   padding-left: 80px;
+   padding-right: 80px;
+    color: #2f2f2f;
+    padding-top: 50px;
+  
 
-    text-transform: capitalize;
-    color: gray;
-}
-.line1{
-    width: 90%;
-    height: 1px;
-    background-color:gainsboro;
-    margin: auto;
    
 }
-
-.logo_.gallery1 {padding: 2em 4em;}
-
-.logo_.gallery1 img {
-    margin: 10px;
+.last-section{
+    width: 100%;
+   background-color: #E8EAED;
+  
 }
-section ul  {
-list-style: none;
-width: 100%;
-
+.Brows ul{
+    list-style: none;
+   
 }
-section ul{
-    display: flex;
-justify-content: space-between;
-margin: 5px;
+.Brows ul li{
+    padding: 8px;
 }
-section ul li{
-    font-size: 12px;
-    margin: 8px;
-    text-transform: capitalize;
-}
-
-
-
-
-
-
+.Brows ul li:first-child{
+    color: black;
+    font-size: 700;
     
+}
+.footer-icon{
+    height: 10vh;
+}
+.last-line{
+    border-bottom: 1px solid rgb(143, 140, 140);
+    padding: 20px;
+    width: 100%;
+}
+.icons{
+    margin: 60px;
+   padding-right: 990px ;
+}
+.icons i{
+    color: rgb(76, 76,76);
+    font-size: 25px;
+    margin: 10px ;
+   
+}
+.end-section{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-left: 60px
+}
+.end-section li{
+    margin: 20px;
+    font-size: 13px;
+    color: #2f2f2f;
+}
